@@ -1,5 +1,76 @@
 # baxter_dual_autonomy
-First Test Repository
+## Getting This Repository and File Structure
+### Cloning and First Steps
+First clone this repository, AS your ros workspace. 
+
+`git clone https://github.com/SACHIN-PARAJULI/baxter_dual_autonomy.git`
+
+Next, buld your workspace with catkin
+
+`catkin_make`
+
+See dependencies section for installing anything necessary.
+
+The file structure should be laid out with some txt files, and folders in the top level of the repo
+- devel
+- src
+- build
+- txt's, the README
+- **manuel.sh**
+
+## Startup Process
+
+Once inside the repo, with the initial catkin_make command run, you can source and connect to your baxter (Xavier in our case)
+
+```
+source devel/setup.bash
+./manuel.sh
+```
+
+Finally, enable the robot
+
+`rosrun baxter_tools enable_robot.py`
+
+If you desire the arms to be in a better position, use the untuck command
+
+`rosrun baxter_tools tuck_arms.py -u`
+
+## Pick and Place Steps
+
+1. Run the action server first `rosrun baxter_interface joint_trajectory_action.py`
+
+2. Run the rviz gripper config next `roslaunch baxter_moveit_config baxter_grippers.launch`
+
+3. Run the pick and place command, providing the txt file to use as an argument `rosrun moveit_check test_moveit.py example.txt`
+
+### Setting new positions for pick and place
+
+1. Use the rostopic for the right arm's endpoint `rostopic echo /robot/limb/right/endpoint_state`
+
+  Further, you should use the pose: position and pose: orientation values. These 7, (3 position, 4 orientation) will give you the values for assigning to the
+  position txt file.
+
+2. Format the txt file as such
+
+  ```
+    x, y, z
+    x, y, z, w
+  ```
+
+### Stopping The Pick and Place
+
+Upon the script sticking on output `stopping`, you may `ctrl-c` to kill the process. 
+
+## To Be Continued
+
+
+## Stopping The Robot
+
+When finished, the following can be used to stop Baxter
+
+`rosrun baxter_tools tuck_arms.py -t`
+
+This command also disables the robot, no need for an extra command
 
 
 For special lab purposes
