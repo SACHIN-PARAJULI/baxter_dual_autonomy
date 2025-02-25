@@ -1,4 +1,4 @@
-prefix=/home/apollo/Documents/baxter_dual_autonomy/devel
+prefix=/home/apollo/baxter_dual_autonomy/devel
 
 Name: rethink_ee_description
 Description: Description of rethink_ee_description

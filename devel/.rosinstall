@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/apollo/Documents/baxter_dual_autonomy/devel/setup.sh
+    local-name: /home/apollo/baxter_dual_autonomy/devel/setup.sh

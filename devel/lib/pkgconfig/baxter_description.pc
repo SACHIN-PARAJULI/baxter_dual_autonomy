@@ -1,4 +1,4 @@
-prefix=/home/apollo/Documents/baxter_dual_autonomy/devel
+prefix=/home/apollo/baxter_dual_autonomy/devel
 
 Name: baxter_description
 Description: Description of baxter_description

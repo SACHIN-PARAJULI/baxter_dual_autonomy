@@ -1,4 +1,4 @@
-prefix=/home/apollo/Documents/baxter_dual_autonomy/devel
+prefix=/home/apollo/baxter_dual_autonomy/devel
 
 Name: atlas_v3_moveit_config
 Description: Description of atlas_v3_moveit_config

@@ -1,8 +1,8 @@
-prefix=/home/apollo/Documents/baxter_dual_autonomy/devel
+prefix=/home/apollo/baxter_dual_autonomy/devel
 
 Name: moveit_check
 Description: Description of moveit_check
 Version: 0.0.0
-Cflags: -I/home/apollo/Documents/baxter_dual_autonomy/src/pick_and_place_baxter_moveit/include
+Cflags: -I/home/apollo/baxter_dual_autonomy/src/pick_and_place_baxter_moveit/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy message_runtime geometry_msgs active_vision_msgs moveit_ros_planning_interface tf
