@@ -1,0 +1,576 @@
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_tools tuck_arms.py -t
+rosrun baxter_tools enable_robot.py -d
+Ctrl + Z
+
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_interface joint_trajectory_action_server.py
+
+source devel/setup.bash
+. baxter.sh
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+source devel/setup.bash
+. baxter.sh
+
+Install Bexter for Melodic
+https://wiki.robonomics.network/docs/en/baxter2/#gatewayipfsioipfs-put-your-hash-here
+
+
+gedit ~/.bashrc
+source ~/.bashrc
+
+systemctl reboot --firmware-setup
+
+lsusb -t
+modinfo xhci_hcd/6p
+
+
+rosrun baxter_tools camera_control.py -l
+rosrun baxter_tools camera_control.py -c right_hand_camera
+rosrun baxter_tools camera_control.py -o head_camera -r 1280x800
+rosrun image_view image_view image:=/cameras/head_camera/image
+
+
+You can make a video recording of what is happening on your screen:
+Press Ctrl+Alt+Shift+R to start recording what is on your screen.
+A red circle is displayed in the top right corner of the screen when the recording is in progress.
+Once you have finished, press Ctrl+Alt+Shift+R again to stop the recording.
+The video is automatically saved in your Videos folder in your home folder, with a file name that starts with Screencast and includes the date and time it was taken.
+
+python3 -m pip install diskcache
+
+python3 -m pip install .
+
+https://github.com/enriccorona/GanHand
+https://github.com/hassony2/manopth
+python3 test.py --dataset_mode ycb_affordances_complete_scene --name ganhand_pretrained --load_epoch 13
+
+
+change opt_test.txt file
+
+grep -r 'enric' *
+checkpoints/ganhand_pretrained/opt_test.txt:data_dir: /media/enric/DATA/ganhand/YCB_Affordance/
+checkpoints/ganhand_pretrained/opt_test.txt:mano_dir: /home/enric/libraries/manopth/
+models/ganhand.py:            mano_root='/home/enric/libraries/manopth/mano/models/', side='right', use_pca=True, ncomps=45, flat_hand_mean=True)
+Binary file options/__pycache__/base_options.cpython-36.pyc matches
+options/base_options.py:        self._parser.add_argument('--data_dir', type=str, default='/media/enric/DATA/ganhand/YCB_Affordance/', help='path to dataset')
+options/base_options.py:        self._parser.add_argument('--mano_dir', type=str, default='/home/enric/libraries/manopth/', help='path to dataset')
+README.md:[[Project]](http://www.iri.upc.edu/people/ecorona/ganhand/) [[Paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Corona_GanHand_Predicting_Human_Grasp_Affordances_in_Multi-Object_Scenes_CVPR_2020_paper.pdf) [[Dataset]](https://github.com/enriccorona/YCB_Affordance)
+README.md:Checkout the github repository to download the [YCB-Affordance dataset](https://github.com/enriccorona/YCB_Affordance). This contains the 3D models of objects from the YCB benchmark, the videos from the YCB-Video Dataset, and the human hand grasps from the YCB-Affordance dataset.
+README.md:- Download the YCB-Affordance Dataset from [this repository](https://github.com/enriccorona/YCB_Affordance). We use the YCB-Affordance Dataset, an extension of the YCB-Video dataset, to train and test the model. Follow the instructions of the repository to download the dataset. Link this project to the folder where you keep the dataset using the ```data_dir``` argument, when training/testing.
+utils/MANO_indices.py:    mano_root='/home/enric/libraries/manopth/mano/models/', side='right', use_pca=True, ncomps=45, flat_hand_mean=True)
+YCB_Affordance/.git/config:	url = https://github.com/enriccorona/YCB_Affordance.git
+YCB_Affordance/.git/logs/refs/remotes/origin/HEAD:0000000000000000000000000000000000000000 93b0d763267d9b105c4679f8eab6cff0c74b2ffa rrl <rrl@rrl.(none)> 1659393832 -0700	clone: from https://github.com/enriccorona/YCB_Affordance.git
+YCB_Affordance/.git/logs/refs/heads/master:0000000000000000000000000000000000000000 93b0d763267d9b105c4679f8eab6cff0c74b2ffa rrl <rrl@rrl.(none)> 1659393832 -0700	clone: from https://github.com/enriccorona/YCB_Affordance.git
+YCB_Affordance/.git/logs/HEAD:0000000000000000000000000000000000000000 93b0d763267d9b105c4679f8eab6cff0c74b2ffa rrl <rrl@rrl.(none)> 1659393832 -0700	clone: from https://github.com/enriccorona/YCB_Affordance.git
+
+
+
+  File "/home/rrl/GanHand-master/data/ycb_affordances_complete_scene.py", line 189, in _read_dataset_paths
+    self.imgnames = np.load(self.data_dir + '/data/imgnames.npy')
+  File "/home/rrl/.local/lib/python3.6/site-packages/numpy/lib/npyio.py", line 416, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '~/GanHand-master/YCB_Affordance/data/imgnames.npy'
+
+BaxterGanHand
+
+
+https://github.com/ravijo/baxter_moveit_tutorial
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+roslaunch baxter_gazebo baxter_world.launch
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_interface joint_trajectory_action_server.py
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+rosrun moveit_check test_moveit_mod2.py
+
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+rosrun moveit_check test_moveit_tutorial.py
+
+
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh sim
+rosrun baxter_sim_examples ik_pick_and_place_demo_mod.py
+
+
+
+
+https://sdk.rethinkrobotics.com/wiki/Baxter_Interface
+https://web.ics.purdue.edu/~rvoyles/Classes/ROSprogramming/Using_Baxter_Cameras.pdf
+
+
+Continue with test_moveit_tutorial.py
+
+In rviz add marker
+
+change marker array line to cube without for loop
+
+
+Use test_moveit_mod2.py
+
+Free3D
+
+/home/rrl/GanHand-master/YCB_Affordance
+
+https://arxiv.org/pdf/2103.00268.pdf
+
+
+
+(base) rrl@rrl:~/GanHand-master/YCB_Affordance$ conda activate ganhand
+(ganhand) rrl@rrl:~/GanHand-master/YCB_Affordance$ python3 -u visualize_grasps.py
+
+
+
+Blender: first convert to fbx then to dae
+
+https://github.com/google/mediapipe/blob/0.8.3.1/docs/solutions/holistic.md
+
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_interface joint_trajectory_action_server.py
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check pick_place_service.py -r (-s for saving) position.txt
+
+rosrun moveit_check pick_place_service.py -s position_leftarm.txt
+
+
+
+image[start_x:end_x, start_y:end_y]
+crop = image[300:550, 250:550]
+         xmin        ymin        xmax        ymax  confidence  class  \
+1   76.730202  171.813354  175.415253  208.621765    0.434663     76
+
+
+
+x_center
+0    129.504848
+dtype: float64
+y_center
+0    189.924026
+dtype: float64
+
+
+https://github.com/opti545/baxter_builder
+B = (Pp – Cp) * cc * d + Bp + Go, where
+
+    B = Object's coordinates in Baxter's base frame
+    Pp = pixel coordinates
+    Cp = centre pixel coordinates
+    Bp = Baxter pose (coordinates of left hand camera in Baxter's base frame)
+    Go = gripper offset
+    d = distance from table
+    cc = camera calibration factor (meters/pixel at 1m height of camera from table)
+
+
+
+
+
+pick_pose_offset.position.x
+0.762312980224; max. 0.8
+pick_pose_offset.position.y
+0.0284443011482
+
+
+
+(374-400)*0.0023*0+0+0.05
+
+
+x_center
+361.4339828491211
+y_center
+576.8688430786133
+x0b
+0.742312980224
+y0b
+0.0484443011482
+
+
+0.578142
+-0.184032
+
+xb
+0.506389318466
+yb
+0.05
+
+xb
+0.52506560878
+yb
+0.0580415359192
+
+
+x_center
+374.59629821777344
+y_center
+556.2063369750977
+x0b
+0.578142
+y0b
+-0.184032
+xb
+0.566387372772
+yb
+0.0312259212189
+
+
+
+x_center
+378.1269111633301
+y_center
+489.0945587158203
+x0b
+0.578142
+y0b
+-0.184032
+xb
+0.709510198395
+yb
+-0.191373361046
+
+
+https://sdk.rethinkrobotics.com/wiki/Worked_Example_Visual_Servoing
+
+
+export blend to fbx
+fbx to dae with rigged preset
+
+
+apply rig
+remove bones
+
+
+
+sudo apt-get install ros-noetic-moveit-core
+
+
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_interface joint_trajectory_action_server.py
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools camera_control.py -l
+rosrun baxter_tools camera_control.py -c right_hand_camera
+rosrun baxter_tools camera_control.py -o head_camera -r 1280x800
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check test_moveit_mod2.py
+
+
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check test_baxtercamera.py
+
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check test_baxtercamera_yolov7_hands.py
+
+
+https://pypi.org/project/yolov7-package/
+
+
+sudo -H python3.8 -m pip uninstall numpy
+sudo apt purge python3-numpy
+sudo -H python3.8 -m pip install --upgrade pip
+sudo -H python3.8 -m pip install numpy
+
+cd ~/baxter_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+
+
+https://moveit.ros.org/install/source/
+
+cd ~/robot_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check pick_place_service.py -s position_leftarm.txt
+
+
+
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+
+
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_interface joint_trajectory_action_server.py
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check pick_place_service_leftarm.py -s position_leftarm.txt
+rosrun moveit_check pick_place_service_rightarm.py -s position_rightarm.txt
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools camera_control.py -l
+rosrun baxter_tools camera_control.py -c right_hand_camera
+rosrun baxter_tools camera_control.py -o head_camera -r 1280x800
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check test_baxtercamera_yolov7_hands.py
+
+cd ~/ros_ws
+source devel/setup.bash
+. baxter.sh
+rosrun moveit_check test_baxtercamera_yolov7_hands_leftrobotarm.py
+
+test_baxtercamera_yolov7_hands_bothrobotarms
+
+rosrun moveit_check test_baxtercamera_yolov7_hands_bothrobotarms_bowlballbook.py
+rosrun moveit_check test_baxtercamera_yolov7_hands_bothrobotarms_bowlballbook_multiprocessing.py
+
+
+
+rrl@rrl:~$ sudo rm -r /opt/ros/noetic
+rrl@rrl:~$ sudo cp -r /home/rrl/Downloads/noetic-20221101T213327Z-001/noetic /opt/ros/melodic
+
+How to fix this strange error: "RuntimeError: CUDA error: out of memory":
+nvidia-smi
+sudo kill -9 pid
+
+
+neutral -u
+neutral above
+scissors picking
+scissors placing
+
+
+
+0.6630509641521891,0.004008856535116984,-0.1115829197628167
+
+602.00064
+768.5
+
+
+        #     cx = float(x_center)
+        #     cy = float(y_center)
+        #     pix_size = .0025 #Camera calibration (meter/pixels); Pixel size at 1 meter height of camera
+        #     # # h = -0.075 #Height from table to camera, when at vision place
+        #     # h = 0.5 #Height from table to camera, when at vision place
+        #     h = 0.73 #Height from table to camera, when at vision place
+        #     x0b = .18839 # x position of camera in baxter's base frame, when at vision place
+        #     y0b = .0 # y position of camera in baxter's base frame, when at vision place
+        #     # x_camera_offset = .02 #x camera offset from center of the gripper
+        #     # y_camera_offset = .02 #y camera offset from center of the gripper
+        #     # # x_camera_offset = .02 #x camera offset from center of the gripper
+        #     # # y_camera_offset = -.02 #y camera offset from center of the gripper
+        #     # # height, width, depth = cv_image.shape #camera frame dimensions
+        #     height = 800
+        #     width = 800
+        #     # #Position of the object in the baxter's stationary base frame
+        #     # # xb = (cx - (height/2))*pix_size*h + x0b + x_camera_offset
+        #     # # yb = (cy - (width/2))*pix_size*h + y0b  + y_camera_offset
+        #     # xb = cx/800
+        #     # yb = cy/800
+        #     xb = (height - cy)*pix_size*h + x0b
+        #     # xb = 0.75
+        #     yb = -(cx - (height/2))*pix_size*h + y0b
+
+xb = (800 - 768.5) * .0025 * 0.73 + .18839
+
+
+
+0.8151813945110672,0.06804979869196354,-0.07873507987671305
+595.00032
+689.0
+
+0.5637000000000001
+-0.006499584000000016
+
+xb = (cy - (height/2))*pix_size*h + x0b
+yb = (cx - (width/2))*pix_size*h + y0b
+
+(768.5-400) * 0.0025 * 0.52 + 0.188
+(689-400) * 0.0025 * 0.52 + 0.188
+
+(600-(595-400)) * 0.0025 * 0.9 + 0.188
+
+
+(602-600) * 0.0025 * 0.52
+(595-600) * 0.0025 * 0.52
+
+
+(600 - ( 689-400)) * 0.00225 * 0.9 + 0.188
+(600 - ( 768.5 - 400)) * 0.00225 * 0.9 + 0.188
+
+
+python3 -u object_taxonomies.py
+
+[[1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0]
+ [0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0]
+ [1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [1 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1]
+ [0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1]
+ [1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1]
+ [0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]]
+
+
+(base) rrl@rrl:~/GanHand-master/YCB_Affordance$ python3 -u visualize_grasps.py
+
+Class Names of MS-COCO classes in order of Detectron dict
+https://gist.github.com/AruniRC/7b3dadd004da04c80198557db5da4bda
+
+
+rosrun baxter_examples xdisplay_image.py --file /home/rrl/Pictures/happyface.png
+rosrun baxter_examples xdisplay_image.py --file=`rospack find baxter_examples`/share/images/baxterworking.png
+rosrun baxter_examples xdisplay_image.py --file /home/rrl/ros_ws/src/baxter_tools/share/images/researchsdk.png
+
+
+wstool not working
+from https://raw.githubusercontent.com/RethinkRobotics/baxter/release-1.1.1/baxter_sdk.rosinstall for example: (in src folder)
+git clone --branch release-1.1.1 https://github.com/RethinkRobotics/baxter.git
+
+
+
+cd ~/ros_ws_v1.1.1
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools tuck_arms.py -u
+rosrun baxter_interface joint_trajectory_action_server.py
+
+cd ~/ros_ws_v1.1.1
+source devel/setup.bash
+. baxter.sh
+roslaunch baxter_moveit_config baxter_grippers.launch
+
+cd ~/ros_ws_v1.1.1
+source devel/setup.bash
+. baxter.sh
+rosrun baxter_tools camera_control.py -l
+rosrun baxter_tools camera_control.py -c right_hand_camera
+rosrun baxter_tools camera_control.py -o head_camera -r 1280x800
+rosrun moveit_check test_baxtercamera_yolov7_hands_bothrobotarms_bowlballbook_multiprocessing.py

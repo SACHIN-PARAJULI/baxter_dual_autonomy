@@ -1,0 +1,15 @@
+<?xml version="1.0" ?><sdf version="1.6">
+  <model name="Marker0">
+    <static>true</static>
+    <link name="link">
+    <pose frame=''>0 0 0 0 1.5707 0</pose>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://marker0/meshes/Marker0.dae</uri>
+          <scale>1.0 1.0 1.0</scale></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

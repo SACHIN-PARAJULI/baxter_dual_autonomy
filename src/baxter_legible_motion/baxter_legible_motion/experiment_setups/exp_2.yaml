@@ -1,0 +1,29 @@
+
+point_names: ['obstaclePosition_0',
+              'obstaclePosition_1',
+              'obstaclePosition_2',
+              'obstaclePosition_3',
+              'obstaclePosition_4']
+
+full_study: ['0_p', '1_s', '3_p', '4_s']
+points:
+  obstaclePosition_0:
+    x: 0.58
+    y: -0.11
+    z: -0.15
+  obstaclePosition_1:
+    x: 0.58
+    y: -0.31
+    z: -0.15
+  obstaclePosition_2:
+    x: 0.58
+    y: -0.51
+    z: -0.15
+  obstaclePosition_3:
+    x: 0.58
+    y: -0.71
+    z: -0.15
+  obstaclePosition_4:
+    x: 0.58
+    y: -0.91
+    z: -0.15

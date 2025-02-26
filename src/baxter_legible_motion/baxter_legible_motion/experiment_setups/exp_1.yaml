@@ -1,0 +1,106 @@
+
+point_names: ['obstaclePosition_0',
+              'obstaclePosition_1',
+              'obstaclePosition_2',
+              'obstaclePosition_3',
+              'obstaclePosition_4',
+              'obstaclePosition_5',
+              'obstaclePosition_6',
+              'obstaclePosition_7',
+              'obstaclePosition_8',
+              'obstaclePosition_9',
+              'obstaclePosition_10',
+              'obstaclePosition_11',
+              'obstaclePosition_12',
+              'obstaclePosition_13',
+              'obstaclePosition_14',
+              'obstaclePosition_15',
+              'obstaclePosition_16',
+              'obstaclePosition_17',
+              'obstaclePosition_18',
+              'obstaclePosition_19']
+
+full_study: [ '8_p', '2_s', '11_s', '9_p', '15_p', '13_p', '5_s', '16_p', '6_s', '17_s',# object guessing
+              '14_s', '14_p', '7_p', '7_s', '9_p', '9_s' ] # direct comparison
+
+points:
+  obstaclePosition_0:
+    x: 0.379
+    y: -0.65
+    z: -0.1
+  obstaclePosition_1:
+    x: 0.484
+    y: -0.805
+    z: -0.1
+  obstaclePosition_2:
+    x: 0.729
+    y: -0.79
+    z: -0.1
+  obstaclePosition_3:
+    x: 0.579
+    y: -0.65
+    z: -0.1
+  obstaclePosition_4:
+    x: 0.704
+    y: -0.55
+    z: -0.1
+  obstaclePosition_5:
+    x: 0.819
+    y: -0.65
+    z: -0.1
+  obstaclePosition_6:
+    x: 0.869
+    y: -0.56
+    z: -0.1
+  obstaclePosition_7:
+    x: 0.524
+    y: -0.51
+    z: -0.1
+  obstaclePosition_8:
+    x: 0.479
+    y: -0.4
+    z: -0.1
+  obstaclePosition_9:
+    x: 0.629
+    y: -0.385
+    z: -0.1
+  obstaclePosition_10:
+    x: 0.804
+    y: -0.395
+    z: -0.1
+  obstaclePosition_11:
+    x: 0.609
+    y: -0.25
+    z: -0.1
+  obstaclePosition_12:
+    x: 0.479
+    y: -0.255
+    z: -0.1
+  obstaclePosition_13:
+    x: 0.804
+    y: -0.3075
+    z: -0.1
+  obstaclePosition_14:
+    x: 0.919
+    y: -0.26
+    z: -0.1
+  obstaclePosition_15:
+    x: 0.704
+    y: -0.16
+    z: -0.1
+  obstaclePosition_16:
+    x: 0.839
+    y: 0.03
+    z: -0.1
+  obstaclePosition_17:
+    x: 0.704
+    y: 0.04
+    z: -0.1
+  obstaclePosition_18:
+    x: 0.639
+    y: -0.05
+    z: -0.1
+  obstaclePosition_19:
+    x: 0.574
+    y: 0.01
+    z: -0.1

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<sdf version="1.4">
+  <model name="small_marker">
+    <static>false</static>
+    <link name="link">
+      <inertial>       
+        <pose>0.0032001725192558157 0.0046815585797816105 0.006391496433260354 -0.020211277298798458 -0.6276743807623588 -1.9393642875164274</pose> 
+        <mass>9.949254477814756e-06</mass>
+        <inertia>
+          <ixx>2.4084715538969605e-09</ixx>
+          <ixy>9.155582456300096e-26</ixy>
+          <ixz>1.1863051481423453e-24</ixz>
+          <iyy>1.3477104149527396e-09</iyy>
+          <iyz>7.674300859504461e-26</iyz>
+          <izz>-7.936753569279307e-10</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <!-- Use a downsampled mesh for collisions -->
+            <uri>model://041_small_marker/tsdf/textured.obj</uri>
+	        </mesh>
+        </geometry>
+        <surface>
+        <!--<friction>
+          <ode>
+            <mu>0.8</mu>
+            <mu2>0.6</mu2>
+          </ode>
+        </friction>-->
+      </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://041_small_marker/tsdf/textured.obj</uri>
+	        </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://041_small_marker/small_marker.material</uri>
+            <name>small_marker</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

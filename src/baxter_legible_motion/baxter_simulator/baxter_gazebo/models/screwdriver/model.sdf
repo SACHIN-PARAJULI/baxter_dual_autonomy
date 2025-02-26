@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="screwdriver">
+    <static>false</static>
+    <link name="link">
+    
+       <inertial>
+        <mass>0.1</mass>
+      </inertial>   
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>/home/melanie/kinova_ws/src/ros_kortex/kortex_gazebo/models/screwdriver/meshes/screwdriver.dae</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+        
+         <surface>
+        <friction>
+          <ode>
+            <mu>0.01</mu>
+            <mu2>0.01</mu2>
+          </ode>
+        </friction>
+        </surface>       
+        
+      </collision>
+      
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>/home/melanie/kinova_ws/src/ros_kortex/kortex_gazebo/models/screwdriver/meshes/screwdriver.dae</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

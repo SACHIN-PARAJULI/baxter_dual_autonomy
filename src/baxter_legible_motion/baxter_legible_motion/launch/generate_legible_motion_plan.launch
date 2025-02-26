@@ -1,0 +1,34 @@
+<launch>
+  <arg name='exp_num' default='0'/>
+  <arg name='graph' default='false'/>
+  <arg name='execute' default='false'/>
+  <arg name='run_study' default='false'/>
+  <arg name='seed' default='particpant_0'/>
+
+  <rosparam command='load' file='$(find baxter_legible_motion)/experiment_setups/exp_$(arg exp_num).yaml'/>
+
+  <group if='$(eval run_study == true)'>
+    <node pkg='baxter_legible_motion' type='gen_traj.py' name='legible_motion_node' args='--run_study -s $(arg seed)' output='screen'/>
+  </group>
+
+  <group if='$(eval run_study == false)'>
+    <group if='$(eval graph == false)'>
+      <group if='$(eval execute == false)'>
+        <node pkg='baxter_legible_motion' type='gen_traj.py' name='legible_motion_node' args='' output='screen'/>
+      </group>
+      <group if='$(eval execute == true)'>
+        <node pkg='baxter_legible_motion' type='gen_traj.py' name='legible_motion_node' args='-x' output='screen'/>
+      </group>
+    </group>
+
+    <group if='$(eval graph == true)'>
+      <group if='$(eval execute == false)'>
+        <node pkg='baxter_legible_motion' type='gen_traj.py' name='legible_motion_node' args='-g' output='screen'/>
+      </group>
+      <group if='$(eval execute == true)'>
+        <node pkg='baxter_legible_motion' type='gen_traj.py' name='legible_motion_node' args='-x -g' output='screen'/>
+      </group>
+    </group>
+  </group>
+
+</launch>
