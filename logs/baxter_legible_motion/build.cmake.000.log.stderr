@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:305 (message):
+  catkin_package() include dir 'include' does not exist relative to
+  '/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/baxter_legible_motion'
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:69 (catkin_package)
+
+

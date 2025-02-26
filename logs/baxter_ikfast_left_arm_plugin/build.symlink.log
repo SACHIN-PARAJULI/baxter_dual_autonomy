@@ -1,0 +1,4 @@
+Symlinking /home/apollo/baxter_dual_autonomy/devel/lib/libbaxter_left_arm_moveit_ikfast_plugin.so
+Symlinking /home/apollo/baxter_dual_autonomy/devel/lib/pkgconfig/baxter_ikfast_left_arm_plugin.pc
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/baxter_ikfast_left_arm_plugin/cmake/baxter_ikfast_left_arm_pluginConfig-version.cmake
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/baxter_ikfast_left_arm_plugin/cmake/baxter_ikfast_left_arm_pluginConfig.cmake

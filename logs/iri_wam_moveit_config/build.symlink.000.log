@@ -1,0 +1,3 @@
+Symlinking /home/apollo/baxter_dual_autonomy/devel/lib/pkgconfig/iri_wam_moveit_config.pc
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/iri_wam_moveit_config/cmake/iri_wam_moveit_configConfig-version.cmake
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/iri_wam_moveit_config/cmake/iri_wam_moveit_configConfig.cmake

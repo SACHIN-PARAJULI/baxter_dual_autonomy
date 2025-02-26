@@ -1,0 +1,156 @@
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:266:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  266 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
+      |                                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  344 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:302:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  302 |   urdf::LinkConstSharedPtr link = robot_model.getLink([01;35m[Ktip_frame_[m[K);
+      |                                                       [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:302:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  302 |   urdf::LinkConstSharedPtr link = robot_model.getLink([01;35m[Ktip_frame_[m[K);
+      |                                                       [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::getPositionFK(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<double>&, std::vector<geometry_msgs::Pose_<std::allocator<void> > >&) const[m[K’:
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:592:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  592 |   if(link_names.size()!=1 || link_names[0]!=[01;35m[Ktip_frame_[m[K){
+      |                                             [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:592:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  592 |   if(link_names.size()!=1 || link_names[0]!=[01;35m[Ktip_frame_[m[K){
+      |                                             [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:48[m[K:
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:593:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  593 |     ROS_ERROR_NAMED("ikfast","Can compute FK for %s only",[01;35m[Ktip_frame_[m[K.c_str());
+      |                                                           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:216:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  216 | #define ROS_ERROR_NAMED(name, ...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+      |                                    [01;36m[K^~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:593:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR_NAMED[m[K’
+  593 |     [01;36m[KROS_ERROR_NAMED[m[K("ikfast","Can compute FK for %s only",tip_frame_.c_str());
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:48[m[K:
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:593:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::tip_frame_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  593 |     ROS_ERROR_NAMED("ikfast","Can compute FK for %s only",[01;35m[Ktip_frame_[m[K.c_str());
+      |                                                           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:216:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  216 | #define ROS_ERROR_NAMED(name, ...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+      |                                    [01;36m[K^~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:593:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR_NAMED[m[K’
+  593 |     [01;36m[KROS_ERROR_NAMED[m[K("ikfast","Can compute FK for %s only",tip_frame_.c_str());
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:596:30:[m[K [01;36m[Knote: [m[Kdeclared here
+  596 |   [[deprecated]] std::string [01;36m[Ktip_frame_[m[K;
+      |                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:772:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  772 |     num_positive_increments = (int)((max_limit-initial_guess)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:772:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  772 |     num_positive_increments = (int)((max_limit-initial_guess)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:773:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  773 |     num_negative_increments = (int)((initial_guess-min_limit)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:773:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  773 |     num_negative_increments = (int)((initial_guess-min_limit)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:777:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  777 |     num_positive_increments = (joint_max_vector_[free_params_[0]]-initial_guess)/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:777:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  777 |     num_positive_increments = (joint_max_vector_[free_params_[0]]-initial_guess)/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:778:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  778 |     num_negative_increments = (initial_guess-joint_min_vector_[free_params_[0]])/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:778:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  778 |     num_negative_increments = (initial_guess-joint_min_vector_[free_params_[0]])/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:840:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  840 |     vfree[0] = initial_guess+[01;35m[Ksearch_discretization_[m[K*counter;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:840:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  840 |     vfree[0] = initial_guess+[01;35m[Ksearch_discretization_[m[K*counter;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/apollo/baxter_dual_autonomy/src/baxter_legible_motion/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/src/baxter_right_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:597:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  597 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

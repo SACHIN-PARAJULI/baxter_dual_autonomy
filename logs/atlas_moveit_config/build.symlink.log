@@ -1,0 +1,3 @@
+Symlinking /home/apollo/baxter_dual_autonomy/devel/lib/pkgconfig/atlas_moveit_config.pc
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/atlas_moveit_config/cmake/atlas_moveit_configConfig.cmake
+Symlinking /home/apollo/baxter_dual_autonomy/devel/share/atlas_moveit_config/cmake/atlas_moveit_configConfig-version.cmake

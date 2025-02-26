@@ -37,7 +37,7 @@ import numpy as np
 import sys
 # setting path
 sys.path.append('/home/rrl/ros_ws/src/baxter_interface/src/joint_trajectory_action')
-import bezier
+import joint_trajectory_action.bezier as bezier
 
 import rospy
 

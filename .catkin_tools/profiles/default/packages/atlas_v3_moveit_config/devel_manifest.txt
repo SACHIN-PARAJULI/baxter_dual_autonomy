@@ -1,0 +1,5 @@
+baxter_legible_motion/moveit_robots/atlas_v3_moveit_config
+/home/apollo/baxter_dual_autonomy/devel/.private/atlas_v3_moveit_config/cmake.lock /home/apollo/baxter_dual_autonomy/devel/./cmake.lock
+/home/apollo/baxter_dual_autonomy/devel/.private/atlas_v3_moveit_config/lib/pkgconfig/atlas_v3_moveit_config.pc /home/apollo/baxter_dual_autonomy/devel/lib/pkgconfig/atlas_v3_moveit_config.pc
+/home/apollo/baxter_dual_autonomy/devel/.private/atlas_v3_moveit_config/share/atlas_v3_moveit_config/cmake/atlas_v3_moveit_configConfig.cmake /home/apollo/baxter_dual_autonomy/devel/share/atlas_v3_moveit_config/cmake/atlas_v3_moveit_configConfig.cmake
+/home/apollo/baxter_dual_autonomy/devel/.private/atlas_v3_moveit_config/share/atlas_v3_moveit_config/cmake/atlas_v3_moveit_configConfig-version.cmake /home/apollo/baxter_dual_autonomy/devel/share/atlas_v3_moveit_config/cmake/atlas_v3_moveit_configConfig-version.cmake

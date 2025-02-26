@@ -466,7 +466,7 @@ def main():
   moveit_commander.roscpp_initialize(sys.argv)
   rospy.init_node('move_group_python_interface_tutorial',
                   anonymous=True)
-
+  user_file = sys.argv[1]
   ## Instantiate a RobotCommander object.  This object is an interface to
   ## the robot as a whole.
   ## BAnima - enabling robot
@@ -476,7 +476,7 @@ def main():
   pickplace = Pick_and_Place('left_arm','left')
 
   #sub_img = rospy.Subscriber("ar_pose_marker", AlvarMarkers, pickplace.ar_tag_callback)
-  pickplace.input_pos("/home/rrl/ros_ws_baxter_collision_detection/position_record.txt")
+  pickplace.input_pos(user_file)
   for index in range(0, 2):
     pickplace.marker_add(index,pickplace.object_pick_pose_target[index]) #sending 1 in case of pick position
   pickplace.pick_place_implementation()

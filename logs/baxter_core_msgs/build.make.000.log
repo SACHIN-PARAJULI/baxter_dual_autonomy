@@ -1,0 +1,248 @@
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_HeadState[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_DigitalOutputCommand[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_CameraSettings[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_AnalogIOState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalOutputCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraSettings
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_AnalogIOStates[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_NavigatorStates[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_EndpointStates[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_AssemblyStates[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOStates
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_JointCommand[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_CollisionAvoidanceState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyStates
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_ListCameras[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_CollisionDetectionState[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_CloseCamera[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_JointCommand
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_EndEffectorCommand[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_DigitalIOState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionAvoidanceState
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_EndEffectorProperties[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionDetectionState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CloseCamera
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ListCameras
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_EndEffectorState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorCommand
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_CameraControl[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOState
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_HeadPanCommand[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_NavigatorState[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_RobustControllerStatus[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_EndpointState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorProperties
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_SEAJointState[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraControl
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadPanCommand
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_URDFConfiguration[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_RobustControllerStatus
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_AnalogOutputCommand[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_SolvePositionIK[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_DigitalIOStates[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_AssemblyState[0m
+[35m[1mScanning dependencies of target _baxter_core_msgs_generate_messages_check_deps_OpenCamera[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SEAJointState
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_URDFConfiguration
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_OpenCamera
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SolvePositionIK
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogOutputCommand
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyState
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_eus[0m
+[  0%] [34m[1mGenerating Lisp code from baxter_core_msgs/AnalogOutputCommand.msg[0m
+[  1%] [34m[1mGenerating Lisp code from baxter_core_msgs/AnalogIOState.msg[0m
+[  1%] [34m[1mGenerating Python from MSG baxter_core_msgs/AnalogIOState[0m
+[  2%] [34m[1mGenerating C++ code from baxter_core_msgs/AnalogIOState.msg[0m
+[  2%] [34m[1mGenerating Javascript code from baxter_core_msgs/AnalogIOState.msg[0m
+[  3%] [34m[1mGenerating Lisp code from baxter_core_msgs/AnalogIOStates.msg[0m
+[  4%] [34m[1mGenerating EusLisp code from baxter_core_msgs/AnalogIOState.msg[0m
+[  4%] [34m[1mGenerating Javascript code from baxter_core_msgs/AnalogIOStates.msg[0m
+[  5%] [34m[1mGenerating Lisp code from baxter_core_msgs/AssemblyState.msg[0m
+[  5%] [34m[1mGenerating EusLisp code from baxter_core_msgs/AnalogIOStates.msg[0m
+[  6%] [34m[1mGenerating Javascript code from baxter_core_msgs/AnalogOutputCommand.msg[0m
+[  7%] [34m[1mGenerating Lisp code from baxter_core_msgs/AssemblyStates.msg[0m
+[  8%] [34m[1mGenerating C++ code from baxter_core_msgs/AnalogIOStates.msg[0m
+[  8%] [34m[1mGenerating Javascript code from baxter_core_msgs/AssemblyState.msg[0m
+[  8%] [34m[1mGenerating Lisp code from baxter_core_msgs/CameraControl.msg[0m
+[  9%] [34m[1mGenerating Lisp code from baxter_core_msgs/CameraSettings.msg[0m
+[ 10%] [34m[1mGenerating EusLisp code from baxter_core_msgs/AnalogOutputCommand.msg[0m
+[ 11%] [34m[1mGenerating Javascript code from baxter_core_msgs/AssemblyStates.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from baxter_core_msgs/CollisionAvoidanceState.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from baxter_core_msgs/AssemblyState.msg[0m
+[ 13%] [34m[1mGenerating Python from MSG baxter_core_msgs/AnalogIOStates[0m
+[ 13%] [34m[1mGenerating C++ code from baxter_core_msgs/AnalogOutputCommand.msg[0m
+[ 14%] [34m[1mGenerating Javascript code from baxter_core_msgs/CameraControl.msg[0m
+[ 15%] [34m[1mGenerating Lisp code from baxter_core_msgs/CollisionDetectionState.msg[0m
+[ 17%] [34m[1mGenerating C++ code from baxter_core_msgs/AssemblyState.msg[0m
+[ 17%] [34m[1mGenerating Javascript code from baxter_core_msgs/CameraSettings.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from baxter_core_msgs/DigitalIOState.msg[0m
+[ 18%] [34m[1mGenerating EusLisp code from baxter_core_msgs/AssemblyStates.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from baxter_core_msgs/DigitalIOStates.msg[0m
+[ 19%] [34m[1mGenerating Javascript code from baxter_core_msgs/CollisionAvoidanceState.msg[0m
+[ 20%] [34m[1mGenerating Javascript code from baxter_core_msgs/CollisionDetectionState.msg[0m
+[ 20%] [34m[1mGenerating Javascript code from baxter_core_msgs/DigitalIOState.msg[0m
+[ 21%] [34m[1mGenerating EusLisp code from baxter_core_msgs/CameraControl.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from baxter_core_msgs/DigitalOutputCommand.msg[0m
+[ 22%] [34m[1mGenerating Python from MSG baxter_core_msgs/AnalogOutputCommand[0m
+[ 23%] [34m[1mGenerating Javascript code from baxter_core_msgs/DigitalIOStates.msg[0m
+[ 24%] [34m[1mGenerating C++ code from baxter_core_msgs/AssemblyStates.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from baxter_core_msgs/DigitalOutputCommand.msg[0m
+[ 25%] [34m[1mGenerating C++ code from baxter_core_msgs/CameraControl.msg[0m
+[ 26%] [34m[1mGenerating Python from MSG baxter_core_msgs/AssemblyState[0m
+[ 27%] [34m[1mGenerating Lisp code from baxter_core_msgs/EndEffectorCommand.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from baxter_core_msgs/EndEffectorCommand.msg[0m
+[ 28%] [34m[1mGenerating EusLisp code from baxter_core_msgs/CameraSettings.msg[0m
+[ 28%] [34m[1mGenerating Lisp code from baxter_core_msgs/EndEffectorProperties.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from baxter_core_msgs/EndEffectorState.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from baxter_core_msgs/EndEffectorProperties.msg[0m
+[ 31%] [34m[1mGenerating C++ code from baxter_core_msgs/CameraSettings.msg[0m
+[ 32%] [34m[1mGenerating Lisp code from baxter_core_msgs/EndpointState.msg[0m
+[ 32%] [34m[1mGenerating EusLisp code from baxter_core_msgs/CollisionAvoidanceState.msg[0m
+[ 34%] [34m[1mGenerating Javascript code from baxter_core_msgs/EndEffectorState.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from baxter_core_msgs/CollisionDetectionState.msg[0m
+[ 36%] [34m[1mGenerating Python from MSG baxter_core_msgs/AssemblyStates[0m
+[ 36%] [34m[1mGenerating Lisp code from baxter_core_msgs/EndpointStates.msg[0m
+[ 37%] [34m[1mGenerating C++ code from baxter_core_msgs/CollisionAvoidanceState.msg[0m
+[ 37%] [34m[1mGenerating Javascript code from baxter_core_msgs/EndpointState.msg[0m
+[ 37%] [34m[1mGenerating Python from MSG baxter_core_msgs/CameraControl[0m
+[ 37%] [34m[1mGenerating C++ code from baxter_core_msgs/CollisionDetectionState.msg[0m
+[ 38%] [34m[1mGenerating Lisp code from baxter_core_msgs/HeadPanCommand.msg[0m
+[ 39%] [34m[1mGenerating Javascript code from baxter_core_msgs/EndpointStates.msg[0m
+[ 40%] [34m[1mGenerating EusLisp code from baxter_core_msgs/DigitalIOState.msg[0m
+[ 40%] [34m[1mGenerating Javascript code from baxter_core_msgs/HeadPanCommand.msg[0m
+[ 41%] [34m[1mGenerating Lisp code from baxter_core_msgs/HeadState.msg[0m
+[ 42%] [34m[1mGenerating C++ code from baxter_core_msgs/DigitalIOState.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from baxter_core_msgs/JointCommand.msg[0m
+[ 43%] [34m[1mGenerating Javascript code from baxter_core_msgs/HeadState.msg[0m
+[ 44%] [34m[1mGenerating Lisp code from baxter_core_msgs/NavigatorState.msg[0m
+[ 44%] [34m[1mGenerating EusLisp code from baxter_core_msgs/DigitalIOStates.msg[0m
+[ 45%] [34m[1mGenerating Python from MSG baxter_core_msgs/CameraSettings[0m
+[ 46%] [34m[1mGenerating Javascript code from baxter_core_msgs/JointCommand.msg[0m
+[ 47%] [34m[1mGenerating Lisp code from baxter_core_msgs/NavigatorStates.msg[0m
+[ 47%] [34m[1mGenerating Python from MSG baxter_core_msgs/CollisionAvoidanceState[0m
+[ 48%] [34m[1mGenerating EusLisp code from baxter_core_msgs/DigitalOutputCommand.msg[0m
+[ 48%] [34m[1mGenerating Python from MSG baxter_core_msgs/CollisionDetectionState[0m
+[ 50%] [34m[1mGenerating C++ code from baxter_core_msgs/DigitalIOStates.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from baxter_core_msgs/NavigatorState.msg[0m
+[ 51%] [34m[1mGenerating Lisp code from baxter_core_msgs/RobustControllerStatus.msg[0m
+[ 51%] [34m[1mGenerating C++ code from baxter_core_msgs/DigitalOutputCommand.msg[0m
+[ 51%] [34m[1mGenerating EusLisp code from baxter_core_msgs/EndEffectorCommand.msg[0m
+[ 52%] [34m[1mGenerating Lisp code from baxter_core_msgs/SEAJointState.msg[0m
+[ 53%] [34m[1mGenerating Javascript code from baxter_core_msgs/NavigatorStates.msg[0m
+[ 53%] [34m[1mGenerating Lisp code from baxter_core_msgs/URDFConfiguration.msg[0m
+[ 54%] [34m[1mGenerating Javascript code from baxter_core_msgs/RobustControllerStatus.msg[0m
+[ 55%] [34m[1mGenerating EusLisp code from baxter_core_msgs/EndEffectorProperties.msg[0m
+[ 56%] [34m[1mGenerating EusLisp code from baxter_core_msgs/EndEffectorState.msg[0m
+[ 56%] [34m[1mGenerating EusLisp code from baxter_core_msgs/EndpointState.msg[0m
+[ 57%] [34m[1mGenerating Lisp code from baxter_core_msgs/CloseCamera.srv[0m
+[ 58%] [34m[1mGenerating C++ code from baxter_core_msgs/EndEffectorCommand.msg[0m
+[ 59%] [34m[1mGenerating Python from MSG baxter_core_msgs/DigitalIOState[0m
+[ 59%] [34m[1mGenerating Javascript code from baxter_core_msgs/SEAJointState.msg[0m
+[ 60%] [34m[1mGenerating Lisp code from baxter_core_msgs/ListCameras.srv[0m
+[ 61%] [34m[1mGenerating Javascript code from baxter_core_msgs/URDFConfiguration.msg[0m
+[ 63%] [34m[1mGenerating EusLisp code from baxter_core_msgs/EndpointStates.msg[0m
+[ 63%] [34m[1mGenerating Javascript code from baxter_core_msgs/CloseCamera.srv[0m
+[ 63%] [34m[1mGenerating Lisp code from baxter_core_msgs/OpenCamera.srv[0m
+[ 63%] [34m[1mGenerating Javascript code from baxter_core_msgs/ListCameras.srv[0m
+[ 64%] [34m[1mGenerating Lisp code from baxter_core_msgs/SolvePositionIK.srv[0m
+[ 64%] [34m[1mGenerating C++ code from baxter_core_msgs/EndEffectorProperties.msg[0m
+[ 65%] [34m[1mGenerating C++ code from baxter_core_msgs/EndEffectorState.msg[0m
+[ 67%] [34m[1mGenerating EusLisp code from baxter_core_msgs/HeadPanCommand.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from baxter_core_msgs/OpenCamera.srv[0m
+[ 68%] Built target baxter_core_msgs_generate_messages_lisp
+[ 69%] [34m[1mGenerating Python from MSG baxter_core_msgs/DigitalIOStates[0m
+[ 69%] [34m[1mGenerating Python from MSG baxter_core_msgs/DigitalOutputCommand[0m
+[ 70%] [34m[1mGenerating Python from MSG baxter_core_msgs/EndEffectorCommand[0m
+[ 71%] [34m[1mGenerating Javascript code from baxter_core_msgs/SolvePositionIK.srv[0m
+[ 71%] [34m[1mGenerating EusLisp code from baxter_core_msgs/HeadState.msg[0m
+[ 72%] [34m[1mGenerating C++ code from baxter_core_msgs/EndpointState.msg[0m
+[ 72%] [34m[1mGenerating C++ code from baxter_core_msgs/EndpointStates.msg[0m
+[ 73%] [34m[1mGenerating EusLisp code from baxter_core_msgs/JointCommand.msg[0m
+[ 73%] Built target baxter_core_msgs_generate_messages_nodejs
+[ 74%] [34m[1mGenerating EusLisp code from baxter_core_msgs/NavigatorState.msg[0m
+[ 74%] [34m[1mGenerating Python from MSG baxter_core_msgs/EndEffectorProperties[0m
+[ 74%] [34m[1mGenerating EusLisp code from baxter_core_msgs/NavigatorStates.msg[0m
+[ 75%] [34m[1mGenerating C++ code from baxter_core_msgs/HeadPanCommand.msg[0m
+[ 76%] [34m[1mGenerating C++ code from baxter_core_msgs/HeadState.msg[0m
+[ 77%] [34m[1mGenerating C++ code from baxter_core_msgs/JointCommand.msg[0m
+[ 77%] [34m[1mGenerating Python from MSG baxter_core_msgs/EndEffectorState[0m
+[ 78%] [34m[1mGenerating EusLisp code from baxter_core_msgs/RobustControllerStatus.msg[0m
+[ 79%] [34m[1mGenerating C++ code from baxter_core_msgs/NavigatorState.msg[0m
+[ 79%] [34m[1mGenerating EusLisp code from baxter_core_msgs/SEAJointState.msg[0m
+[ 81%] [34m[1mGenerating Python from MSG baxter_core_msgs/EndpointState[0m
+[ 81%] [34m[1mGenerating EusLisp code from baxter_core_msgs/URDFConfiguration.msg[0m
+[ 81%] [34m[1mGenerating Python from MSG baxter_core_msgs/EndpointStates[0m
+[ 84%] [34m[1mGenerating EusLisp code from baxter_core_msgs/CloseCamera.srv[0m
+[ 84%] [34m[1mGenerating C++ code from baxter_core_msgs/NavigatorStates.msg[0m
+[ 84%] [34m[1mGenerating EusLisp code from baxter_core_msgs/ListCameras.srv[0m
+[ 85%] [34m[1mGenerating EusLisp code from baxter_core_msgs/OpenCamera.srv[0m
+[ 86%] [34m[1mGenerating EusLisp code from baxter_core_msgs/SolvePositionIK.srv[0m
+[ 86%] [34m[1mGenerating EusLisp manifest code for baxter_core_msgs[0m
+[ 87%] [34m[1mGenerating Python from MSG baxter_core_msgs/HeadPanCommand[0m
+[ 87%] [34m[1mGenerating C++ code from baxter_core_msgs/RobustControllerStatus.msg[0m
+[ 88%] [34m[1mGenerating C++ code from baxter_core_msgs/SEAJointState.msg[0m
+[ 89%] [34m[1mGenerating Python from MSG baxter_core_msgs/HeadState[0m
+[ 89%] [34m[1mGenerating Python from MSG baxter_core_msgs/JointCommand[0m
+[ 90%] [34m[1mGenerating C++ code from baxter_core_msgs/URDFConfiguration.msg[0m
+[ 91%] [34m[1mGenerating Python from MSG baxter_core_msgs/NavigatorState[0m
+[ 91%] [34m[1mGenerating C++ code from baxter_core_msgs/CloseCamera.srv[0m
+[ 92%] [34m[1mGenerating Python from MSG baxter_core_msgs/NavigatorStates[0m
+[ 93%] [34m[1mGenerating C++ code from baxter_core_msgs/ListCameras.srv[0m
+[ 93%] [34m[1mGenerating Python from MSG baxter_core_msgs/RobustControllerStatus[0m
+[ 94%] [34m[1mGenerating Python from MSG baxter_core_msgs/SEAJointState[0m
+[ 94%] [34m[1mGenerating C++ code from baxter_core_msgs/OpenCamera.srv[0m
+[ 95%] [34m[1mGenerating Python from MSG baxter_core_msgs/URDFConfiguration[0m
+[ 96%] [34m[1mGenerating C++ code from baxter_core_msgs/SolvePositionIK.srv[0m
+[ 96%] [34m[1mGenerating Python code from SRV baxter_core_msgs/CloseCamera[0m
+[ 97%] [34m[1mGenerating Python code from SRV baxter_core_msgs/ListCameras[0m
+[ 97%] [34m[1mGenerating Python code from SRV baxter_core_msgs/OpenCamera[0m
+[ 98%] [34m[1mGenerating Python code from SRV baxter_core_msgs/SolvePositionIK[0m
+[ 98%] Built target baxter_core_msgs_generate_messages_cpp
+[ 98%] Built target baxter_core_msgs_generate_messages_eus
+[100%] [34m[1mGenerating Python srv __init__.py for baxter_core_msgs[0m
+[100%] [34m[1mGenerating Python msg __init__.py for baxter_core_msgs[0m
+[100%] Built target baxter_core_msgs_generate_messages_py
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages[0m
+[100%] Built target baxter_core_msgs_generate_messages
