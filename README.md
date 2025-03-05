@@ -37,7 +37,7 @@ If you desire the arms to be in a better position, use the untuck command
 
 ## Pick and Place Steps
 
-1. Run the action server first `rosrun baxter_interface joint_trajectory_action.py`
+1. Run the action server first `rosrun baxter_interface joint_trajectory_action_server.py`
 
 2. Run the rviz gripper config next `roslaunch baxter_moveit_config baxter_grippers.launch`
 
@@ -56,6 +56,14 @@ If you desire the arms to be in a better position, use the untuck command
     x, y, z
     x, y, z, w
   ```
+### Setting NEW NEW Postions With Joints, Over Inferior Cartesian Coords
+`rostopic echo /robot/joint_states -n 1`
+
+Please note, the order in this is possibly incorrect, this is the order to write in values for the moveit_script. 
+
+> right_s0, right_s1, right_e0, right_e1, right_w0, right_w1, right_w2
+
+While the rostopic will be slightly out of this order.
 
 ### Stopping The Pick and Place
 
